@@ -136,7 +136,7 @@
 
              <button style="width: 160px !important;" type="submit" class="btn btn-primary pull-right"><i class="icon-ok"></i> <strong>LOGIN</strong></button>
              <!-- <strong>Register <a href="create_account.php">here &raquo;</a></strong> &nbsp;&nbsp;&nbsp; -->
-
+            <strong>Forgot Password?<a href="forgot_password.php">  Click here &raquo;</a></strong> &nbsp;&nbsp;&nbsp;
            </td>
          </tr>
 

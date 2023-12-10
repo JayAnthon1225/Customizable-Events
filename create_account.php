@@ -62,6 +62,15 @@ include('header.php');
                   <input type="text" name="lname" class="form-control" placeholder="Lastname" aria-describedby="basic-addon1" required autofocus>
                 </td>
               </tr>
+              <tr>
+                <td colspan="5">&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  Email:
+                  <input type="email" name="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" required autofocus>
+                </td>
+              </tr>
 
 
               <tr>
@@ -153,13 +162,14 @@ if (isset($_POST['register'])) {
   $fname = $_POST['fname'];
   $mname = $_POST['mname'];
   $lname = $_POST['lname'];
+  $email = $_POST['email'];
 
   $username = $_POST['username'];
   $password = $_POST['password'];
   $password2 = $_POST['password2'];
 
   if ($password == $password2) {
-    $conn->query("insert into organizer(fname,mname,lname,username,password,access,status)values('$fname','$mname','$lname','$username','$password','Organizer','offline')");
+    $conn->query("insert into organizer(fname,mname,lname,email,username,password,access,status)values('$fname','$mname','$lname','$email','$username','$password','Organizer','offline')");
 
 ?>
     <script>

@@ -62,7 +62,7 @@ include('session.php');
 
 
 
-                        <table alignment="center">
+                        <table align="center">
                            <tr>
                               <td colspan="5"><strong>Basic Information</strong>
                                  <hr />
@@ -85,7 +85,7 @@ include('session.php');
                               </td>
                            </tr>
 
-                           <!--<tr>
+                           <tr>
                               <td colspan="5">&nbsp;</td>
                            </tr>
                            <tr>
@@ -99,27 +99,27 @@ include('session.php');
                                  <input type="text" name="pnum" class="form-control" placeholder="Phone Number" value="<?php echo $row['pnum']; ?>" aria-describedby="basic-addon1" required autofocus>
                               </td>
                               <td>&nbsp;</td>
-                              <!--  <td>
+                              <!-- <td>
                                  Textpoll Number:
                                  <input type="text" name="tpnum" class="form-control" placeholder="Textpoll Number" value="<?php echo $row['txt_poll_num']; ?>" aria-describedby="basic-addon1" required autofocus>
-                              </td>-->
+                              </td> -->
                            </tr>
 
-                         <!--  <tr>
+                           <tr>
                               <td colspan="5">&nbsp;</td>
                            </tr>
-                           < <tr>
-                              <td colspan="5"><strong>Company Information</strong>
+                           <tr>
+                              <td colspan="5"><strong>Admin Information</strong>
                                  <hr />
                               </td>
-                           </tr>-->
+                           </tr>
 
 
-                           
-                              <!-- Upload Event Logo: <td colspan="5">
+                           <tr>
+                              <!-- <td colspan="5">
                                  Company Name:
                                  <input type="text" name="cname" class="form-control" placeholder="Company Name" value="<?php echo $row['company_name']; ?>" aria-describedby="basic-addon1" required autofocus>
-                              </td>
+                              </td> -->
                            </tr>
 
                            <tr>
@@ -128,8 +128,8 @@ include('session.php');
 
                            <tr>
                               <td colspan="5">
-                                 Company Address:
-                                 <input type="text" name="caddress" class="form-control" placeholder="Company Address" value="<?php echo $row['company_address']; ?>" aria-describedby="basic-addon1" required autofocus>
+                                 Event Address:
+                                 <input type="text" name="caddress" class="form-control" placeholder="Event Address" value="<?php echo $row['company_address']; ?>" aria-describedby="basic-addon1" required autofocus>
                               </td>
                            </tr>
 
@@ -140,19 +140,19 @@ include('session.php');
                            <tr>
                               <td>
                                  Telephone:
-                                 <input type="text" name="ctelephone" class="form-control" placeholder="Company Telephone" value="<?php echo $row['company_telephone']; ?>" aria-describedby="basic-addon1" required autofocus>
+                                 <input type="text" name="ctelephone" class="form-control" placeholder="Telephone" value="<?php echo $row['company_telephone']; ?>" aria-describedby="basic-addon1" required autofocus>
                               </td>
                               <td>&nbsp;</td>
-                              <td>
+                              <!-- <td>
                                  Email:
-                                 <input type="text" name="cemail" class="form-control" placeholder="Company Email" value="<?php echo $row['company_email']; ?>" aria-describedby="basic-addon1" required autofocus>
-                              </td>
+                                 <input type="text" name="cemail" class="form-control" placeholder="Email" value="<?php echo $row['company_email']; ?>" aria-describedby="basic-addon1" required autofocus>
+                              </td> -->
                               <td>&nbsp;</td>
-                              <td>
+                              <!-- <td>
                                  Website:
                                  <input type="text" name="cwebsite" class="form-control" placeholder="Company Website" value="<?php echo $row['company_website']; ?>" aria-describedby="basic-addon1" required autofocus>
-                              </td>
-                           </tr>-->
+                              </td> -->
+                           </tr>
 
 
                         </table>
@@ -176,26 +176,26 @@ include('session.php');
                            </td>
                         </tr>
                         <tr>
-                           <td colspan="2">
-                              <br />
-                              <!--<img class="thumbnail" src="uploads/<?php echo $row['company_logo']; ?>" width="100" height="100" />
+                           <!-- <td colspan="2">
+                              <br /> -->
+                              <!-- <img class="thumbnail" src="uploads/<?php echo $row['company_logo']; ?>" width="100" height="100" /> -->
 
-                           </td></td>-->
-                           <!-- Upload Event Logo: <td colspan="3">
+                           <!-- </td>
+                           <td colspan="3">
                               Upload Event Logo:<br /><br />
                               <input type="file" name="file" id="img" />
-                           </td>-->
-                        </tr>
+                           </td>
+                        </tr> -->
 
 
-                        <tr>
+                        <!-- <tr>
                            <td colspan="5">&nbsp;</td>
                         </tr>
                         <tr>
                            <td colspan="5"><strong>Account Security</strong>
                               <hr />
                            </td>
-                        </tr>
+                        </tr> -->
                         <tr>
                            <td>
                               Username:
@@ -218,6 +218,7 @@ include('session.php');
                            <td><span id='message'></span></td>
                         </tr>
                         <tr>
+                           
                            <td colspan="5"><strong>Confirmation</strong>
                               <hr />
                            </td>

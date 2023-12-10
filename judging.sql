@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2023 at 06:22 AM
+-- Generation Time: Dec 10, 2023 at 05:09 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -178,15 +178,16 @@ CREATE TABLE `organizer` (
   `company_logo` varchar(55) NOT NULL,
   `company_telephone` varchar(55) NOT NULL,
   `company_email` varchar(55) NOT NULL,
-  `company_website` varchar(55) NOT NULL
+  `company_website` varchar(55) NOT NULL,
+  `token` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `organizer`
 --
 
-INSERT INTO `organizer` (`organizer_id`, `fname`, `mname`, `lname`, `username`, `password`, `email`, `pnum`, `txt_poll_num`, `access`, `org_id`, `status`, `company_name`, `company_address`, `company_logo`, `company_telephone`, `company_email`, `company_website`) VALUES
-(1, 'Asenso', 'Liposong', 'Admin', 'admin', 'admin', '', '', '', 'Organizer', '', 'offline', '', '', '', '', '', '');
+INSERT INTO `organizer` (`organizer_id`, `fname`, `mname`, `lname`, `username`, `password`, `email`, `pnum`, `txt_poll_num`, `access`, `org_id`, `status`, `company_name`, `company_address`, `company_logo`, `company_telephone`, `company_email`, `company_website`, `token`) VALUES
+(1, 'Asenso', 'Liposong', 'Admin', 'admin', 'admin', 'cleearrgaming@gmail.com', '', '', 'Organizer', '', 'offline', '', '', '', '', '', '', NULL);
 
 -- --------------------------------------------------------
 
